@@ -1,0 +1,40 @@
+DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register - Naija Political Watch</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">📰 Naija Political Watch</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Politics</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="register.html" class="btn-register">Register</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="form-container">
+    <h2>Create New Account</h2>
+    <form>
+      <input type="text" placeholder="Full Name" required>
+      <input type="email" placeholder="Enter Email" required>
+      <input type="password" placeholder="Create Password" required>
+      <button type="submit">Register</button>
+    </form>
+    <p>Already have an account? <a href="login.html">Login here</a></p>
+  </section>
+
+  <footer>
+    <p>© 2026 Naija Political Watch. Built by Ahmad3150</p>
+  </footer>
+
+</body>
+</html>
