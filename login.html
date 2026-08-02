@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login - Naija Political Watch</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body { font-family: Arial; background: #f2f2f2; display: flex; justify-content: center; align-items: center; height: 100vh; }
+        .login-box { background: white; padding: 30px; border-radius: 10px; box-shadow: 0 0 10px gray; width: 300px; text-align: center; }
+        .login-box img { width: 80px; border-radius: 50%; }
+        input { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px; }
+        button { width: 100%; padding: 10px; background: green; color: white; border: none; border-radius: 5px; font-size: 16px; }
+        button:hover { background: darkgreen; }
+    </style>
+</head>
+<body>
+    <div class="login-box">
+        <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="user">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <input type="email" placeholder="Enter Email" required>
+            <input type="password" placeholder="Enter Password" required>
+            <button type="submit">Login</button>
+        </form>
+        <p><a href="register.html">Register here</a> | <a href="index.html">Home</a></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
